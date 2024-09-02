@@ -1,0 +1,211 @@
+.dashboard-title {
+  display: flex; /* Gunakan flexbox */
+  align-items: center; /* Pusatkan vertikal */
+  font-family: "Montserrat", sans-serif; /* Gunakan font Montserrat */
+  font-weight: normal; /* Gunakan bobot normal */
+  font-size: 20px; /* Ukuran font 32px */
+  margin-bottom: 20px; /* Berikan margin bottom */
+}
+.card-outer1,
+.card-outer2,
+.card-outer3,
+.card-outer4,
+.card-outer5,
+.card-outer6,
+.card-outer7 {
+  width: auto; /* Mengubah lebar kartu menjadi otomatis */
+  max-width: 300px; /* Menetapkan lebar maksimum untuk tetap responsif */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Menengahkan kartu */
+  padding: 0px; /* Berikan padding */
+  margin-left: 50px; /* Menambahkan jarak sedikit di bagian kiri */
+}
+
+.icon-rectangle1,
+.icon-rectangle2,
+.icon-rectangle3,
+.icon-rectangle4,
+.icon-rectangle5,
+.icon-rectangle6,
+.icon-rectangle7 {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px; /* Berikan margin-right untuk jarak antara ikon dan teks */
+  margin-left: 20px;
+}
+
+.icon-rectangle1 {
+  background-color: #17a2b7;
+}
+
+.icon-rectangle2,
+.icon-rectangle3 {
+  background-color: #dc3546;
+}
+
+.icon-rectangle4 {
+  background-color: #27a844;
+}
+
+.icon-rectangle5 {
+  background-color: #8d09cb;
+}
+
+.icon-rectangle6 {
+  background-color: #fec006;
+}
+
+.icon-rectangle7 {
+  background-color: #ff00c7;
+}
+
+.data-text1,
+.data-text2,
+.data-text3,
+.data-text4,
+.data-text5,
+.data-text6,
+.data-text7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.data-text-tittle1,
+.data-text-tittle2,
+.data-text-tittle3,
+.data-text-tittle4,
+.data-text-tittle5,
+.data-text-tittle6,
+.data-text-tittle7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 30px; /* Sesuaikan tinggi baris dengan tinggi ikon */
+}
+
+.button-container1,
+.button-container2,
+.button-container3,
+.button-container4,
+.button-container5,
+.button-container6,
+.button-container7 {
+  display: flex;
+  justify-content: flex-end; /* Pusatkan tombol ke kanan */
+  margin-top: 5px; /* Berikan margin-top */
+}
+
+.button-view-details1,
+.button-view-details2,
+.button-view-details3,
+.button-view-details4,
+.button-view-details5,
+.button-view-details6,
+.button-view-details7 {
+  border: none;
+  font-size: 13px;
+  font-weight: lighter;
+  margin-right: auto; /* Pendorong tombol ke kiri */
+  padding-right: 5px; /* Padding ke pojok kanan */
+}
+
+.button-view-details1 {
+  background-color: #17a2b7;
+  margin-top: 30px;
+}
+
+.button-view-details2,
+.button-view-details3 {
+  background-color: #dc3546;
+  margin-top: 29px;
+}
+
+.button-view-details4 {
+  background-color: #27a844;
+  margin-top: 20px;
+}
+
+.button-view-details5 {
+  background-color: #8d09cb;
+  margin-top: 20px;
+}
+
+.button-view-details6 {
+  background-color: #fec006;
+  margin-top: 20px;
+}
+
+.button-view-details7 {
+  background-color: #ff00c7;
+  margin-top: 20px;
+}
+
+.icon-view-more1,
+.icon-view-more2,
+.icon-view-more3,
+.icon-view-more4,
+.icon-view-more5,
+.icon-view-more6,
+.icon-view-more7 {
+  width: 15px; /* Atur lebar ikon */
+  height: 15px; /* Atur tinggi ikon */
+  margin-left: 197px; /* Berikan sedikit ruang antara teks dan ikon */
+}
+
+.icon-menu1,
+.icon-menu2,
+.icon-menu3,
+.icon-menu4,
+.icon-menu5,
+.icon-menu6,
+.icon-menu7 {
+  width: 40px;
+  height: 40px;
+}
+
+.view-details-text1,
+.view-details-text2,
+.view-details-text3,
+.view-details-text4,
+.view-details-text5,
+.view-details-text6,
+.view-details-text7 {
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 3px;
+}
+
+.col-md-6:nth-child(2) {
+  margin-left: -155px; /* Sesuaikan jumlah margin kiri sesuai kebutuhan */
+}
+
+/* Menghilangkan garis bawah pada tautan */
+a.view-details-link1,
+a.view-details-link2,
+a.view-details-link3,
+a.view-details-link4,
+a.view-details-link5,
+a.view-details-link6,
+a.view-details-link7 {
+  text-decoration: none; /* Menghilangkan dekorasi garis bawah */
+}
+
+/* Ubah kursor saat mengarahkan mouse ke tautan */
+a.view-details-link1:hover,
+a.view-details-link2:hover,
+a.view-details-link3:hover,
+a.view-details-link4:hover,
+a.view-details-link5:hover,
+a.view-details-link6:hover,
+a.view-details-link7:hover {
+  cursor: pointer;
+}

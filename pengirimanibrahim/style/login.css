@@ -1,0 +1,120 @@
+/* Custom styles */
+body {
+  background-color: #f3edc8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif; /* Added font family */
+}
+.btn-login {
+  background-color: white; /* Set button background color to white */
+  color: black; /* Set button text color to black */ /* Set border radius to 3px */
+  width: 50%; /* Set button width to 50% of its container */
+}
+
+/* Center the login button */
+.btn-login {
+  margin: 0 auto; /* Set horizontal margin to auto for centering */
+}
+
+.login-container {
+  background-color: #ead196;
+  display: flex;
+  flex-direction: row; /* Changed to row */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative; /* Added position relative */
+  margin-bottom: 20px; /* Added margin bottom */
+  margin-top: 20px; /* Added margin top */
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  margin-left: 20px; /* Added margin */
+}
+
+.login-form .form-control {
+  border-radius: 25px;
+  padding-left: 45px;
+  background-position: 15px center; /* Adjusted background position */
+  background-repeat: no-repeat;
+}
+
+.login-form .form-control {
+  padding-left: 40px; /* Adjust the padding to fit the icon */
+}
+
+.login-form .form-control.username {
+  background-image: url("../img/Person.png"); /* Menggunakan path relatif */
+  background-repeat: no-repeat;
+  background-position: calc(30px - 30px) center; /* Adjusted the position of the icon */
+}
+
+.login-form .form-control.password {
+  background-image: url("../img/Password.png"); /* Menggunakan path relatif */
+  background-repeat: no-repeat;
+  background-position: calc(30px - 30px) center; /* Adjusted the position of the icon */
+}
+
+.login-form button.btn-login {
+  transition: background-color 0.3s ease;
+}
+
+.login-form button.btn-login:hover {
+  background-color: red;
+}
+
+.logo-container {
+  margin-right: 20px; /* Added margin */
+}
+
+.logo-container img {
+  max-width: 200px;
+}
+
+/* Added styles for Welcome Back! and Please Login To Admin Dashboard */
+.welcome-text {
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.dashboard-text {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+/* Added style for vertical line */
+.vertical-line1 {
+  width: 2px;
+  background-color: #000;
+  height: 80%; /* Set the height of the vertical line */
+  position: absolute;
+  left: 250px;
+  top: 10%; /* Adjust the top position */
+}
+
+.vertical-line2 {
+  width: 2px;
+  background-color: #000;
+  height: 80%; /* Set the height of the vertical line */
+  position: absolute;
+  left: 245px;
+  top: 10%; /* Adjust the top position */
+}
+
+.btn-login {
+  background-color: white; /* Set button background color to white */
+  color: black; /* Set button text color to black */
+  width: 100%; /* Set button width to 50% of its container */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Hover effect for the login button */
+.btn-login:hover {
+  background-color: red;
+  color: white;
+}
